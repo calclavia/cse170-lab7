@@ -10,6 +10,6 @@ exports.view = function(req, res) {
 };
 
 exports.viewMin = function(req, res) {
-    projects.min = true;
+    projects.min = 'rwar';
     res.render('index', projects);
 };
